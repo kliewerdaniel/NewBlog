@@ -521,34 +521,15 @@ export default function ProjectsPage() {
 
   return (
     <div className="min-h-screen">
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-center mb-16"
-        >
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Featured Projects
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            A showcase of cutting-edge AI development projects, from local-first LLM orchestration to creative AI applications and innovative data annotation tools.
-          </p>
-        </motion.div>
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 sm:py-16">
 
-        {/* Category Filter */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="flex flex-wrap justify-center gap-4 mb-12"
-        >
+        {/* Filter buttons should scroll on small screens */}
+        <div className="flex overflow-x-auto pb-4 -mx-4 px-4 gap-2 sm:gap-4 sm:flex-wrap sm:justify-center sm:pb-8">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => setFilter(category)}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+              className={`px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap flex-shrink-0 transition-all duration-300 ${
                 filter === category
                   ? 'bg-blue-600 text-white shadow-lg transform scale-105'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105'
@@ -557,6 +538,23 @@ export default function ProjectsPage() {
               {category.charAt(0).toUpperCase() + category.slice(1)}
             </button>
           ))}
+        </div>
+        {/* Header */}
+
+
+        {/* Header */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-12 sm:mb-16"
+        >
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+            Featured Projects
+          </h1>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+            A showcase of cutting-edge AI development projects, from local-first LLM orchestration to creative AI applications and innovative data annotation tools.
+          </p>
         </motion.div>
 
         {/* Projects Grid */}
@@ -581,7 +579,7 @@ export default function ProjectsPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="space-y-2"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
           >
             {filteredProjects.map((project, index) => (
               <ProjectCard
@@ -598,29 +596,31 @@ export default function ProjectsPage() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="mt-20 text-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-12"
+          className="mt-16 sm:mt-20 text-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 sm:p-12"
         >
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
             Interested in Collaboration?
           </h2>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
             These projects represent ongoing efforts in AI development. If you're interested in contributing,
             partnering, or exploring similar technologies, let's connect.
           </p>
-          <a
-            href="/about"
-            className="btn-professional px-8 py-4 mr-4"
-          >
-            Learn More About Me
-          </a>
-          <a
-            href="https://github.com/kliewerdaniel"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-8 py-4 text-lg font-semibold border-2 border-blue-600 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
-          >
-            View on GitHub
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/about"
+              className="btn-professional px-6 sm:px-8 py-3 sm:py-4 text-center"
+            >
+              Learn More About Me
+            </a>
+            <a
+              href="https://github.com/kliewerdaniel"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold border-2 border-blue-600 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors text-center"
+            >
+              View on GitHub
+            </a>
+          </div>
         </motion.div>
       </div>
     </div>
