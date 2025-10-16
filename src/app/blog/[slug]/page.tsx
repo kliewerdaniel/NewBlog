@@ -122,18 +122,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   return (
     <div className="relative">
       <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-        {/* Back to Blog */}
-        <div className="mb-8">
-          <Link
-            href="/blog"
-            className="inline-flex items-center text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
-          >
-            <svg className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            Back to Blog
-          </Link>
-        </div>
+
 
         {/* Article Header */}
         <article>
@@ -148,7 +137,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               </time>
             </div>
 
-            <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
+            <h1 className="text-4xl font-bold text-black mb-8">
               {post.title}
             </h1>
 
@@ -179,20 +168,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         </article>
 
-        {/* Navigation */}
-        <nav className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-800">
-          <div className="flex justify-between">
-            <div>
-              <Link
-                href="/blog"
-                className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"
-              >
-                ← All Posts
-              </Link>
-            </div>
-           
-          </div>
-        </nav>
+     
       </div>
 
       {/* Table of Contents */}
