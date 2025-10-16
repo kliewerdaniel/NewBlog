@@ -77,7 +77,7 @@ const fallbackProjects = [
     stars: 7,
     forks: 1,
     watchers: 7,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'news08',
@@ -87,7 +87,7 @@ const fallbackProjects = [
     stars: 7,
     forks: 1,
     watchers: 7,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'NextGenPersonaGen',
@@ -107,7 +107,7 @@ const fallbackProjects = [
     stars: 2,
     forks: 0,
     watchers: 2,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'news13',
@@ -117,7 +117,7 @@ const fallbackProjects = [
     stars: 2,
     forks: 0,
     watchers: 2,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'PersonaGen',
@@ -287,7 +287,7 @@ const fallbackProjects = [
     stars: 1,
     forks: 0,
     watchers: 1,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'news21',
@@ -297,7 +297,7 @@ const fallbackProjects = [
     stars: 1,
     forks: 0,
     watchers: 1,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'news23',
@@ -307,7 +307,7 @@ const fallbackProjects = [
     stars: 1,
     forks: 0,
     watchers: 1,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'q01',
@@ -337,7 +337,7 @@ const fallbackProjects = [
     stars: 1,
     forks: 0,
     watchers: 1,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'obj02',
@@ -347,7 +347,7 @@ const fallbackProjects = [
     stars: 1,
     forks: 0,
     watchers: 1,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'news03',
@@ -357,7 +357,7 @@ const fallbackProjects = [
     stars: 1,
     forks: 0,
     watchers: 1,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'news04',
@@ -367,7 +367,7 @@ const fallbackProjects = [
     stars: 1,
     forks: 0,
     watchers: 1,
-    category: 'Creative AI'
+    category: 'News Generator'
   },
   {
     name: 'TextAdventure',
