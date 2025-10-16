@@ -171,8 +171,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
      
       </div>
 
-      {/* Table of Contents */}
-      <TableOfContents content={post.content} />
     </div>
   );
 }

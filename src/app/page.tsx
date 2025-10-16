@@ -151,7 +151,7 @@ export default async function HomePage() {
                 href="https://6340588028610.gumroad.com/l/eunvm?_gl=1*1mns354*_ga*MzE3MDczOTcwLjE3NTc2MTM4MzI.*_ga_6LJN6D94N6*czE3NjA2MDg4NDAkbzUkZzEkdDE3NjA2MDg4NzkkajIxJGwwJGgw"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+                className="block mx-auto px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-center"
               >
                 Get Book
               </a>
@@ -166,7 +166,7 @@ export default async function HomePage() {
                 href="https://6340588028610.gumroad.com/l/bulxtf?_gl=1*qim3nb*_ga*MzE3MDczOTcwLjE3NTc2MTM4MzI.*_ga_6LJN6D94N6*czE3NjA2MDg4NDAkbzUkZzEkdDE3NjA2MDg4OTkkajEkbDAkaDA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+                className="block mx-auto px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-center"
               >
                 Get Book
               </a>
@@ -181,7 +181,7 @@ export default async function HomePage() {
                 href="https://6340588028610.gumroad.com/l/ddsrtm?_gl=1*190d6zg*_ga*MzE3MDczOTcwLjE3NTc2MTM4MzI.*_ga_6LJN6D94N6*czE3NjA2MDg4NDAkbzUkZzEkdDE3NjA2MDg4OTEkajYwJGwwJGgw"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+                className="block mx-auto px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-center"
               >
                 Get Book
               </a>
@@ -196,7 +196,7 @@ export default async function HomePage() {
                 href="https://6340588028610.gumroad.com/l/squjox?_gl=1*iz565q*_ga*MzE3MDczOTcwLjE3NTc2MTM4MzI.*_ga_6LJN6D94N6*czE3NjA2MDg4NDAkbzUkZzEkdDE3NjA2MDg4OTAkajU3JGwwJGgw"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+                className="block mx-auto px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-center"
               >
                 Get Book
               </a>
