@@ -1,0 +1,160 @@
+# Blog Post Edit Progress Ledger
+
+## Completed Posts:
+- [x] 2025-07-08-ai-ssr-guide.md
+- [x] 2025-07-06-demystifying-large-language-models.md
+- [x] 2025-07-06-beyond-prompts.md
+- [x] 2025-04-07-echoshelf.md
+- [x] 2025-04-06-judgmental-art-cat.md
+- [x] 2025-03-30-assessing-marriage.md
+- [x] 2025-03-30-learning-platform.md
+- [x] 2025-03-30-building-a-personalized-ai-learning-system-with-local-llm.md
+- [x] 2025-03-29-markdown-teaching-assistant.md
+- [x] 2025-03-28-scalable-ai-backends.md
+- [x] 2025-03-28-ollama-chunking.md
+- [x] 2025-03-25-large-scale-agent-architecture.md
+- [x] 2025-03-24-model-context-protocol.md
+- [x] 2025-03-22-local-llm-document-pipeline-blueprint.md
+- [x] 2025-03-21-browser-use-ollama-mcp.md
+- [x] 2025-03-13-simulacra.md
+- [x] 2025-03-12-mcp-openai-responses-api-agents-sdk-ollama.md
+- [x] 2025-03-12-mcp-openai-agents-sdk-ollama.md
+- [x] 2025-03-12-openai-agents-sdk-ollama-integration.md
+- [x] 2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework.md
+- [x] 2025-03-11-integrating-rust-burn-framework-for-ai.md
+- [x] 2025-03-30-learning-platform.md
+- [x] 2025-03-30-building-a-personalized-ai-learning-system-with-local-llm.md
+- [x] 2025-03-29-markdown-teaching-assistant.md
+- [x] 2025-03-28-scalable-ai-backends.md
+
+## Remaining Posts (Most Recent to Oldest):
+- [x] 2025-04-06-judgmental-art-cat.md
+- [x] 2025-03-30-learning-platform.md
+- [x] 2025-03-30-building-a-personalized-ai-learning-system-with-local-llm.md
+- [x] 2025-03-29-markdown-teaching-assistant.md
+- [x] 2025-03-28-scalable-ai-backends.md
+- [x] 2025-03-25-large-scale-agent-architecture.md
+- [x] 2025-03-24-model-context-protocol.md
+- [ ] 2025-03-22-local-llm-document-pipeline-blueprint.md
+- [ ] 2025-03-21-browser-use-ollama-mcp.md
+- [ ] 2025-03-13-simulacra.md
+- [ ] 2025-03-12-mcp-openai-responses-api-agents-sdk-ollama.md
+- [ ] 2025-03-12-mcp-openai-agents-sdk-ollama.md
+- [ ] 2025-03-12-openai-agents-sdk-ollama-integration.md
+- [ ] 2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework.md
+- [x] 2025-03-09-reason-ai.md
+- [x] 2025-03-09-nextjs-ollama-custom-agent-framework.md
+- [x] 2025-03-09-nextjs-firebase.md
+- [ ] 2025-03-09-custom-agent.md
+- [ ] 2025-03-03-text-adventure.md
+- [ ] 2025-02-25-building-an-ai-powered-filename-generator-chrome-extension.md
+- [ ] 2025-02-23-privacy-policy.md
+- [ ] 2025-02-14-reddiss.md
+- [ ] 2025-02-05-open-deep-research.md
+- [ ] 2025-02-05-ollama-smolagents-open-deep-research.md
+- [ ] 2025-02-05-loco-local-localllama.md
+- [ ] 2025-02-03-scrape-reddit-analysis-blog.md
+- [ ] 2025-01-23-building-a-multimodal-story-generation-system.md
+- [ ] 2025-01-22-image-to-book.md
+- [ ] 2025-01-16-solo-business-ventures.md
+- [ ] 2024-12-30-cultural-fingerprints.md
+- [ ] 2024-12-19-langchain-ollama.md
+- [ ] 2024-12-19-homeless-guide-austin.md
+- [ ] 2024-12-19-continue.dev-ollama.md
+- [ ] 2024-12-14-learning-from-the-past.md
+- [ ] 2024-12-11-next-gen-personagen.md
+- [ ] 2024-12-10-rl.md
+- [ ] 2024-12-09-pydantic-rag.md
+- [ ] 2024-12-05-personagen.md
+- [ ] 2024-12-02-persona-chat.md
+- [ ] 2024-12-01-basic-rag.md
+- [ ] 2024-11-29-tech-company-orchestrator.md
+- [ ] 2024-11-28-basic-swarm-chatbot.md
+- [ ] 2024-11-28-basic-autogen.md
+- [ ] 2024-11-27-swarm-autogen.md
+- [ ] 2024-11-27-reddit-blog-generator.md
+- [ ] 2024-11-27-instagram-feed-summarizer.md
+- [ ] 2024-11-27-enhanced-persona-generator.md
+- [ ] 2024-11-27-data-annotation-guide.md
+- [ ] 2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor.md
+- [ ] 2024-11-23-rlhf-lab-business-plan.md
+- [ ] 2024-11-22-rlhf-lab.md
+- [ ] 2024-11-22-planning.md
+- [ ] 2024-11-04-deep-fake.md
+- [ ] 2024-10-30-creating-ai-agents.md
+- [ ] 2024-10-24-ghost-writer.md
+- [ ] 2024-10-22-integrating-django-react-ollama-with-xai-api.md
+- [ ] 2024-10-18-building-a-full-stack-application-with-django-and-react.md
+- [ ] 2024-10-12-django-react.md
+- [ ] 2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models.md
+- [ ] 2024-10-04-detailed-description-of-insight-journal.md
+
+- [x] 2025-03-28-ollama-chunking.md
+
+## Remaining Posts (Most Recent to Oldest):
+- [x] 2025-04-06-judgmental-art-cat.md
+- [ ] 2025-03-30-learning-platform.md
+- [ ] 2025-03-30-building-a-personalized-ai-learning-system-with-local-llm.md
+- [x] 2025-03-29-markdown-teaching-assistant.md
+- [ ] 2025-03-28-scalable-ai-backends.md
+- [ ] 2025-03-28-ollama-chunking.md
+- [ ] 2025-03-25-large-scale-agent-architecture.md
+- [ ] 2025-03-24-model-context-protocol.md
+- [ ] 2025-03-22-local-llm-document-pipeline-blueprint.md
+- [ ] 2025-03-21-browser-use-ollama-mcp.md
+- [ ] 2025-03-13-simulacra.md
+- [ ] 2025-03-12-mcp-openai-responses-api-agents-sdk-ollama.md
+- [ ] 2025-03-12-mcp-openai-agents-sdk-ollama.md
+- [ ] 2025-03-12-openai-agents-sdk-ollama-integration.md
+- [ ] 2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework.md
+- [x] 2025-03-09-reason-ai.md
+- [x] 2025-03-09-nextjs-ollama-custom-agent-framework.md
+- [x] 2025-03-09-nextjs-firebase.md
+- [ ] 2025-03-09-custom-agent.md
+- [ ] 2025-03-03-text-adventure.md
+- [ ] 2025-02-25-building-an-ai-powered-filename-generator-chrome-extension.md
+- [ ] 2025-02-23-privacy-policy.md
+- [ ] 2025-02-14-reddiss.md
+- [ ] 2025-02-05-open-deep-research.md
+- [ ] 2025-02-05-ollama-smolagents-open-deep-research.md
+- [ ] 2025-02-05-loco-local-localllama.md
+- [ ] 2025-02-03-scrape-reddit-analysis-blog.md
+- [ ] 2025-01-23-building-a-multimodal-story-generation-system.md
+- [ ] 2025-01-22-image-to-book.md
+- [ ] 2025-01-16-solo-business-ventures.md
+- [ ] 2024-12-30-cultural-fingerprints.md
+- [ ] 2024-12-19-langchain-ollama.md
+- [ ] 2024-12-19-homeless-guide-austin.md
+- [ ] 2024-12-19-continue.dev-ollama.md
+- [ ] 2024-12-14-learning-from-the-past.md
+- [ ] 2024-12-11-next-gen-personagen.md
+- [ ] 2024-12-10-rl.md
+- [ ] 2024-12-09-pydantic-rag.md
+- [ ] 2024-12-05-personagen.md
+- [ ] 2024-12-02-persona-chat.md
+- [ ] 2024-12-01-basic-rag.md
+- [ ] 2024-11-29-tech-company-orchestrator.md
+- [ ] 2024-11-28-basic-swarm-chatbot.md
+- [ ] 2024-11-28-basic-autogen.md
+- [ ] 2024-11-27-swarm-autogen.md
+- [ ] 2024-11-27-reddit-blog-generator.md
+- [ ] 2024-11-27-instagram-feed-summarizer.md
+- [ ] 2024-11-27-enhanced-persona-generator.md
+- [ ] 2024-11-27-data-annotation-guide.md
+- [ ] 2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor.md
+- [ ] 2024-11-23-rlhf-lab-business-plan.md
+- [ ] 2024-11-22-rlhf-lab.md
+- [ ] 2024-11-22-planning.md
+- [ ] 2024-11-04-deep-fake.md
+- [ ] 2024-10-30-creating-ai-agents.md
+- [ ] 2024-10-24-ghost-writer.md
+- [ ] 2024-10-22-integrating-django-react-ollama-with-xai-api.md
+- [ ] 2024-10-18-building-a-full-stack-application-with-django-and-react.md
+- [ ] 2024-10-12-django-react.md
+- [ ] 2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models.md
+- [ ] 2024-10-04-detailed-description-of-insight-journal.md
+
+## Summary:
+- Total Posts: 60
+- Completed: 27
+- Remaining: 33
