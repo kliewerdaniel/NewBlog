@@ -17,7 +17,7 @@ pids
 *.pid.lock
 
 .agent_data/
-content/
+# content/  # Removed to allow blog posts to be committed
 # Coverage directory used by tools like istanbul
 /coverage
 *.lcov
