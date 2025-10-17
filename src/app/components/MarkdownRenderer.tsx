@@ -13,6 +13,7 @@ interface CodeBlockProps {
 
 const CodeBlock: React.FC<CodeBlockProps> = ({ children, className }) => {
   const [isCopied, setIsCopied] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(false);
   const textInput = useRef<HTMLDivElement>(null);
 
   const handleCopy = () => {
@@ -24,21 +25,36 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ children, className }) => {
     }
   };
 
+  const handleToggle = () => {
+    setIsCollapsed(!isCollapsed);
+  };
+
   const language = className?.replace(/language-/, '') || 'javascript';
 
   return (
     <div className="relative group">
-      <button
-        onClick={handleCopy}
-        className="absolute top-2 right-2 bg-gray-700 text-white px-2 py-1 rounded text-sm opacity-0 group-hover:opacity-100 transition-opacity"
-      >
-        {isCopied ? 'Copied!' : 'Copy'}
-      </button>
-      <div ref={textInput}>
-        <pre className={`language-${language}`}>
-          <code>{children}</code>
-        </pre>
+      <div className="flex justify-between items-center mb-2">
+        <button
+          onClick={handleToggle}
+          className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
+        >
+          {isCollapsed ? '▶' : '▼'} {isCollapsed ? 'Show Code' : 'Hide Code'} ({language})
+        </button>
+        <button
+          onClick={handleCopy}
+          className="bg-gray-700 text-white px-2 py-1 rounded text-sm opacity-0 group-hover:opacity-100 transition-opacity"
+          disabled={isCollapsed}
+        >
+          {isCopied ? 'Copied!' : 'Copy'}
+        </button>
       </div>
+      {!isCollapsed && (
+        <div ref={textInput}>
+          <pre className={`language-${language}`} style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>
+            <code>{children}</code>
+          </pre>
+        </div>
+      )}
     </div>
   );
 };
@@ -52,6 +68,17 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
     <ReactMarkdown
       rehypePlugins={[rehypeRaw, rehypePrism]}
       components={{
+        a: ({ href, children, ...props }) => (
+          <a
+            href={href}
+            className="text-blue-400 hover:text-blue-300 underline transition-colors duration-200"
+            target="_blank"
+            rel="noopener noreferrer"
+            {...props}
+          >
+            {children}
+          </a>
+        ),
         pre: ({ children, ...props }) => {
           const codeChild = React.Children.toArray(children).find(
             (child): child is React.ReactElement<{ className?: string; children?: React.ReactNode }> =>
