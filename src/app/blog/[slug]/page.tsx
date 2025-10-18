@@ -83,6 +83,26 @@ export async function generateStaticParams() {
   }));
 }
 
+function extractFirstImage(content: string): string | null {
+  // Match markdown image syntax: ![alt text](image_path)
+  const markdownImageRegex = /!\[.*?\]\((.*?)\)/;
+  const match = content.match(markdownImageRegex);
+
+  if (match && match[1]) {
+    // Handle both relative and absolute paths
+    const imagePath = match[1];
+    if (imagePath.startsWith('http')) {
+      return imagePath;
+    } else if (imagePath.startsWith('/')) {
+      return `https://danielkliewer.com${imagePath}`;
+    } else {
+      return `https://danielkliewer.com/${imagePath}`;
+    }
+  }
+
+  return null;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const slug = (await params).slug;
   const post = await getBlogPost(slug);
@@ -96,6 +116,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const postUrl = `https://danielkliewer.com/blog/${post.slug}`;
   const publishDate = new Date(post.date).toISOString();
+
+  // Extract first image from post content
+  const firstImage = extractFirstImage(post.content);
+  const ogImage = firstImage || "/art/ComfyUI_00234_.png";
 
   return {
     title: `${post.title} | Daniel Kliewer`,
@@ -125,7 +149,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       tags: post.tags,
       images: [
         {
-          url: "/profile/8754022.jpeg",
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: `${post.title} - Daniel Kliewer`,
@@ -136,7 +160,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       card: "summary_large_image",
       title: `${post.title} | Daniel Kliewer`,
       description: post.description || `Read "${post.title}" by Daniel Kliewer - insights on AI development, local-first AI solutions, and innovative technology projects.`,
-      images: ["/profile/8754022.jpeg"],
+      images: [ogImage],
       creator: "@danielkliewer",
       site: "@danielkliewer",
     },
@@ -175,6 +199,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     );
   }
 
+  // Extract first image from post content for structured data
+  const firstImage = extractFirstImage(post.content);
+  const structuredDataImage = firstImage || "/art/ComfyUI_00234_.png";
+
   // Structured data for blog post
   const articleStructuredData = {
     "@context": "https://schema.org",
@@ -202,7 +230,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     "articleSection": post.categories?.[0] || "AI Development",
     "wordCount": post.content.split(' ').length,
     "timeRequired": `PT${Math.ceil(post.content.split(' ').length / 200)}M`, // Estimated reading time
-    "image": "/profile/8754022.jpeg"
+    "image": structuredDataImage
   };
 
 
