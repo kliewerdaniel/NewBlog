@@ -12,6 +12,7 @@ interface BlogPost {
   date: string;
   description: string;
   tags: string[];
+  categories: string[];
   content: string;
 }
 
@@ -29,6 +30,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         date: data.date || 'No date',
         description: data.description || '',
         tags: data.tags || [],
+        categories: data.categories || [],
         content,
       };
     } catch {
@@ -60,6 +62,7 @@ async function getAllBlogPosts(): Promise<BlogPost[]> {
           date: data.date || 'No date',
           description: data.description || content.slice(0, 150) + '...',
           tags: data.tags || [],
+          categories: data.categories || [],
           content,
         };
       })
@@ -87,12 +90,66 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) {
     return {
       title: 'Post Not Found',
+      description: 'The blog post you are looking for could not be found.',
     };
   }
 
+  const postUrl = `https://danielkliewer.com/blog/${post.slug}`;
+  const publishDate = new Date(post.date).toISOString();
+
   return {
-    title: `${post.title} | Blog`,
-    description: post.description,
+    title: `${post.title} | Daniel Kliewer`,
+    description: post.description || `Read "${post.title}" by Daniel Kliewer - insights on AI development, local-first AI solutions, and innovative technology projects.`,
+    keywords: [
+      ...post.tags,
+      'AI Development',
+      'Machine Learning',
+      'Local-First AI',
+      'Daniel Kliewer',
+      'Technical Blog',
+      'AI Insights'
+    ],
+    authors: [{ name: "Daniel Kliewer", url: "https://danielkliewer.com" }],
+    publishedTime: publishDate,
+    modifiedTime: publishDate,
+    openGraph: {
+      title: `${post.title} | Daniel Kliewer`,
+      description: post.description || `Read "${post.title}" by Daniel Kliewer - insights on AI development, local-first AI solutions, and innovative technology projects.`,
+      url: postUrl,
+      siteName: "Daniel Kliewer",
+      locale: "en_US",
+      type: "article",
+      publishedTime: publishDate,
+      modifiedTime: publishDate,
+      authors: ["Daniel Kliewer"],
+      tags: post.tags,
+      images: [
+        {
+          url: "/profile/8754022.jpeg",
+          width: 1200,
+          height: 630,
+          alt: `${post.title} - Daniel Kliewer`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.title} | Daniel Kliewer`,
+      description: post.description || `Read "${post.title}" by Daniel Kliewer - insights on AI development, local-first AI solutions, and innovative technology projects.`,
+      images: ["/profile/8754022.jpeg"],
+      creator: "@danielkliewer",
+      site: "@danielkliewer",
+    },
+    alternates: {
+      canonical: postUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      maxSnippet: -1,
+      maxImagePreview: "large",
+      maxVideoPreview: -1,
+    },
   };
 }
 
@@ -111,16 +168,53 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <p className="text-gray-600 dark:text-gray-400 mb-8">
               The blog post you're looking for doesn't exist.
             </p>
-         
+
           </div>
         </div>
       </div>
     );
   }
 
+  // Structured data for blog post
+  const articleStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.description,
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Kliewer",
+      "url": "https://danielkliewer.com/about"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Daniel Kliewer",
+      "url": "https://danielkliewer.com"
+    },
+    "datePublished": new Date(post.date).toISOString(),
+    "dateModified": new Date(post.date).toISOString(),
+    "url": `https://danielkliewer.com/blog/${post.slug}`,
+    "keywords": post.tags.join(", "),
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://danielkliewer.com/blog/${post.slug}`
+    },
+    "articleSection": post.categories?.[0] || "AI Development",
+    "wordCount": post.content.split(' ').length,
+    "timeRequired": `PT${Math.ceil(post.content.split(' ').length / 200)}M`, // Estimated reading time
+    "image": "/profile/8754022.jpeg"
+  };
+
 
   return (
     <div className="relative">
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleStructuredData),
+        }}
+      />
       <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
 
 

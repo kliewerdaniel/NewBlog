@@ -4,6 +4,35 @@ import path from 'path';
 import matter from 'gray-matter';
 import MotionDiv, { MotionArticle } from '../../components/MotionDiv';
 import { motion } from 'framer-motion';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Daniel Kliewer is an AI Developer and Technical Artist specializing in local-first AI solutions, data annotation, and innovative technology projects. Explore cutting-edge AI development and creative coding.",
+  keywords: ["AI Developer", "Technical Artist", "Local-First AI", "Machine Learning", "Full-Stack Development", "Next.js", "React", "Python", "LLM Orchestration"],
+  openGraph: {
+    title: "Daniel Kliewer - AI Developer & Technical Artist",
+    description: "Expert in Data Annotation, AI Development, LLM Orchestration, and building the Simulacra App. Connecting technical innovation with artistic sovereignty through local-first AI solutions.",
+    type: "website",
+    images: [
+      {
+        url: "/profile/8754022.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Daniel Kliewer - AI Developer & Technical Artist",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Daniel Kliewer - AI Developer & Technical Artist",
+    description: "Expert in Data Annotation, AI Development, LLM Orchestration, and building the Simulacra App. Connecting technical innovation with artistic sovereignty through local-first AI solutions.",
+    images: ["/profile/8754022.jpeg"],
+  },
+  alternates: {
+    canonical: '/',
+  },
+};
 
 interface BlogPost {
   slug: string;
@@ -66,8 +95,41 @@ async function getBlogPosts(): Promise<BlogPost[]> {
 export default async function HomePage() {
   const posts = await getBlogPosts();
 
+  // Structured data for homepage
+  const websiteStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Daniel Kliewer",
+    "url": "https://danielkliewer.com",
+    "description": "AI Developer and Technical Artist specializing in local-first AI solutions, data annotation, and innovative technology projects.",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Kliewer",
+      "url": "https://danielkliewer.com/about"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Daniel Kliewer"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://danielkliewer.com/blog?search={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <div className="min-h-screen">
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(websiteStructuredData),
+        }}
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-50 via-white to-slate-50 py-20 px-4 sm:px-6 lg:px-8">
         <div className="relative mx-auto max-w-7xl">

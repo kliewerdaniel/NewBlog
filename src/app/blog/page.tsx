@@ -3,6 +3,35 @@ import path from 'path';
 import Link from 'next/link';
 import matter from 'gray-matter';
 import BlogFilter from './BlogFilter';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description: "Explore articles on AI development, local-first AI solutions, data annotation, machine learning, and innovative technology projects by Daniel Kliewer.",
+  keywords: ["AI Blog", "Machine Learning", "Local-First AI", "Data Annotation", "LLM Orchestration", "Artificial Intelligence", "Technical Articles", "AI Development"],
+  openGraph: {
+    title: "Blog - Daniel Kliewer",
+    description: "Explore articles on AI development, local-first AI solutions, data annotation, machine learning, and innovative technology projects by Daniel Kliewer.",
+    type: "website",
+    images: [
+      {
+        url: "/profile/8754022.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Daniel Kliewer - AI Developer Blog",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog - Daniel Kliewer",
+    description: "Explore articles on AI development, local-first AI solutions, data annotation, machine learning, and innovative technology projects by Daniel Kliewer.",
+    images: ["/profile/8754022.jpeg"],
+  },
+  alternates: {
+    canonical: '/blog',
+  },
+};
 
 interface BlogPost {
   slug: string;
