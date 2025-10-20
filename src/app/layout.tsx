@@ -122,6 +122,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-full flex flex-col`}
       >
         <Header />
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f6e0fd58fbe048cc973bb159a62ef562"}'></script>
+
         <main className="flex-1 pt-16">
           {children}
         </main>
