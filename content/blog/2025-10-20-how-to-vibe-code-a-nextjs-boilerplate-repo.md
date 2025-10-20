@@ -309,7 +309,7 @@ https://www.frontendeng.dev/blog/26-difference-between-app-and-pages-in-nextjs
 
 **Implementation guidelines** provide detailed setup instructions for type safety, styling strategies, and routing implementation.
 
-**Standards documentation** establishes coding conventions, file organization principles, and naming conventions for
+**Standards documentation** establishes coding conventions, file organization principles, and naming conventions.
 
 **Security documentation** outlines authentication strategies, data protection measures, and security best practices.
 
