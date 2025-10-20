@@ -351,7 +351,7 @@ https://www.frontendeng.dev/blog/26-difference-between-app-and-pages-in-nextjs
 
 <br>
 
-Now we can use this as a refernce to build the app. If you were a real coder and not just a filthy vibe coder like me then you could use a notebook like that in order to help you along the way and refer back to documention. It really is a helpful tool. Which is why I always try to build my own version of it. You can see my latest vibe coding attempt at it [here.](https://danielkliewer.com/blog/2025-10-19-building-a-local-llm-powered-knowledge-graph)
+Now we can use this as a reference to build the app. If you were a real coder and not just a filthy vibe coder like me then you could use a notebook like that in order to help you along the way and refer back to documention. It really is a helpful tool. Which is why I always try to build my own version of it. You can see my latest vibe coding attempt at it [here.](https://danielkliewer.com/blog/2025-10-19-building-a-local-llm-powered-knowledge-graph)
 
 Let's first draft a prompt to give the notebook to start building the context we need to create for our vibe coding session. Proper preperation of documents is half the battle.
 
