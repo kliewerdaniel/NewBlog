@@ -14,6 +14,7 @@ interface CodeBlockProps {
 const CodeBlock: React.FC<CodeBlockProps> = ({ children, className }) => {
   const [isCopied, setIsCopied] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [formattedCode, setFormattedCode] = useState<string>('');
   const textInput = useRef<HTMLDivElement>(null);
 
   const handleCopy = () => {
@@ -30,6 +31,33 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ children, className }) => {
   };
 
   const language = className?.replace(/language-/, '') || 'javascript';
+
+  const formatCode = async (code: string, lang: string): Promise<string> => {
+    try {
+      // Basic formatting for Python - ensure consistent spacing
+      if (lang.toLowerCase() === 'python' || lang.toLowerCase() === 'py') {
+        return code.split('\n').map(line => line.trimEnd()).join('\n').trim();
+      }
+      return code; // Return original code for now
+    } catch (error) {
+      console.warn('Code formatting failed:', error);
+      return code; // Fallback to original code
+    }
+  };
+
+  useEffect(() => {
+    // Extract text content from React children
+    const codeContent = React.Children.toArray(children)
+      .map(child => {
+        if (typeof child === 'string') return child;
+        if (typeof child === 'number') return child.toString();
+        return '';
+      })
+      .join('')
+      .trim();
+
+    formatCode(codeContent, language).then(setFormattedCode);
+  }, [children, language]);
 
   return (
     <div className="relative group">
@@ -51,7 +79,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ children, className }) => {
       {!isCollapsed && (
         <div ref={textInput}>
           <pre className={`language-${language}`} style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>
-            <code>{children}</code>
+            <code>{formattedCode || children}</code>
           </pre>
         </div>
       )}
