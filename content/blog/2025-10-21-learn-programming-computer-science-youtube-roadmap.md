@@ -374,6 +374,10 @@ Aim for consistent practice: 1-2 problems daily beats binge-solving 20 problems 
 
 ---
 
+![Image](/images/1021016.png)
+
+---
+
 <a name="complete-roadmap"></a>
 ## The Complete Self-Learning Roadmap: From Zero to Job-Ready
 
@@ -978,6 +982,10 @@ If traditional employment isn't immediate, consider freelancing:
 
 ---
 
+![Image](/images/1021017.png)
+
+---
+
 <a name="staying-consistent"></a>
 ## How to Stay Consistent and Actually Finish
 
@@ -1160,6 +1168,10 @@ A: Don't worry about perfection—there isn't one. Technologies change constantl
 **Q: Is contributing to open source necessary for getting hired?**
 
 A: Not necessary, but valuable. Open source contributions demonstrate: ability to read others' code, collaboration skills, real-world problem-solving, and community engagement. It's particularly helpful when you lack professional experience. Start small—fix documentation, add tests, tackle "good first issue" labels. It's intimidating initially, but the community generally welcomes contributions. Personal projects can substitute if open source feels overwhelming initially.
+
+---
+
+![Image](/images/1021018.png)
 
 ---
 
