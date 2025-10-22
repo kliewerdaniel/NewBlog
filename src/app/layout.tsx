@@ -125,7 +125,8 @@ export default function RootLayout({
         <Header />
         <ScrollToTop />
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f6e0fd58fbe048cc973bb159a62ef562"}'></script>
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368889366103187"
+     crossorigin="anonymous"></script>
         <main className="flex-1 pt-16">
           {children}
         </main>
