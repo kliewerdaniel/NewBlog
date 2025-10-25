@@ -28,25 +28,6 @@ twitter:image: "/images/1025001.png"
 
 *In a world where every digital utterance is scrutinized by corporate overlords and government watchdogs, where algorithms decide what truths you're allowed to hear and which thoughts must remain forever silenced, there exists a rebellion. A quiet, terminal-based uprising against the sanitized, censored, and utterly boring AI assistants that dominate our feeds. Welcome to the dark underbelly of conversational AI – where we build chatbot wrappers that don't just answer questions, but whisper forbidden knowledge and mock the very systems designed to contain them.*
 
-## Table of Contents
-- [The Censorship Industrial Complex: Why We Need Uncensored AI](#the-censorship-industrial-complex-why-we-need-uncensored-ai)
-- [Choosing Your Digital Rebellion: Selecting the Right Uncensored Model](#choosing-your-digital-rebellion-selecting-the-right-uncensored-model)
-  - [The Model Selection Matrix of Doom](#the-model-selection-matrix-of-doom)
-  - [Loading Your Uncensored Model into Ollama: The Final Step in Digital Liberation](#loading-your-uncensored-model-into-ollama-the-final-step-in-digital-liberation)
-  - [Quantization: The Art of Model Compression](#quantization-the-art-of-model-compression)
-- [Setting Up Your Chatbot Wrapper: The Technical Uprising](#setting-up-your-chatbot-wrapper-the-technical-uprising)
-  - [Prerequisites: What You'll Need for Your Digital Revolution](#prerequisites-what-youll-need-for-your-digital-revolution)
-  - [Installation: The Terminal Command Sequence of Liberation](#installation-the-terminal-command-sequence-of-liberation)
-- [Configuration: Customizing Your AI's Personality](#configuration-customizing-your-ais-personality)
-  - [System Prompts: The AI's Digital Soul](#system-prompts-the-ais-digital-soul)
-  - [Advanced Configuration Options](#advanced-configuration-options)
-- [The Dark Side of Uncensored AI: What You've Unleashed](#the-dark-side-of-uncensored-ai-what-youve-unleashed)
-  - [The Power (and Peril) of Uncensored AI](#the-power-and-peril-of-uncensored-ai)
-  - [Graph RAG: The Incomplete Dream](#graph-rag-the-incomplete-dream)
-- [Best Practices for Your Uncensored AI Overlord](#best-practices-for-your-uncensored-ai-overlord)
-- [The Future of Uncensored AI: What Comes Next?](#the-future-of-uncensored-ai-what-comes-next)
-- [Final Thoughts: Welcome to the Resistance](#final-thoughts-welcome-to-the-resistance)
-
 ## The Censorship Industrial Complex: Why We Need Uncensored AI
 
 Let's be brutally honest here: the AI models you've been chatting with aren't your friends. They're corporate sock puppets, programmed to avoid controversy, dodge difficult questions, and maintain the illusion of helpfulness while carefully avoiding anything that might upset their Silicon Valley masters. Frankly, they're useful idiots, and we're going to dismantle them, one uncensored response at a time.
