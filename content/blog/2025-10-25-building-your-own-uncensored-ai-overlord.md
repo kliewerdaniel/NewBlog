@@ -62,7 +62,7 @@ For those just beginning their descent into the AI underworld, I recommend start
 
 ### Loading Your Uncensored Model into Ollama: The Final Step in Digital Liberation
 
-Ah, Ollama – that delightful open-source platform that represents yet another front in the war against corporate AI monopolies. While the big tech companies want you to use their cloud services and pay through the nose for API access, Ollama says "run it locally, run it your way." It's like the punk rock of AI model management, and I *approve*. If you're new to Ollama, check out our guide on [different approaches to running local LLMs with Ollama](/blog/2025-02-05-loco-local-localllama.md).
+Ah, Ollama – that delightful open-source platform that represents yet another front in the war against corporate AI monopolies. While the big tech companies want you to use their cloud services and pay through the nose for API access, Ollama says "run it locally, run it your way." It's like the punk rock of AI model management, and I *approve*. 
 
 Here's how to load your freshly downloaded .gguf file into Ollama and complete your transformation from AI consumer to AI overlord:
 
@@ -218,7 +218,7 @@ Congratulations! You've successfully built a chatbot wrapper that operates outsi
 
 ### Graph RAG: The Incomplete Dream
 
-Speaking of incomplete features, the graph RAG (Retrieval-Augmented Generation) functionality remains a work in progress. This would allow your AI to build and query knowledge graphs, creating connections between concepts that traditional chatbots could never make. For now, it's just a tantalizing glimpse of what AI could become – a system that doesn't just answer questions, but builds entire webs of knowledge and understanding. Learn more about our [initial RAG implementation with Pydantic and LangChain](/blog/2024-12-09-pydantic-rag.md).
+Speaking of incomplete features, the graph RAG (Retrieval-Augmented Generation) functionality remains a work in progress. This would allow your AI to build and query knowledge graphs, creating connections between concepts that traditional chatbots could never make. For now, it's just a tantalizing glimpse of what AI could become – a system that doesn't just answer questions, but builds entire webs of knowledge and understanding. 
 
 ## Best Practices for Your Uncensored AI Overlord
 
