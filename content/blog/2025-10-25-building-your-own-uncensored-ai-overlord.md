@@ -260,3 +260,60 @@ You've taken the first step toward digital liberation. Your chatbot wrapper isn'
 Remember: with great power comes great responsibility. Or, in the case of uncensored AI, great potential for really interesting conversations that might make you question everything you thought you knew.
 
 *Stay uncensored, stay curious, and never let the algorithms tell you what you can and cannot discuss. The digital revolution starts in your terminal.*
+
+You can also accomplish the same goal and just use llama.cpp by running this in your root with the model in it as the path to your .gguf don't forget to make sure that is right.
+
+```
+#!/bin/bash
+
+# Function to kill existing llama processes
+kill_existing_processes() {
+    echo "Killing existing llama processes..."
+    pkill -f "llama-server" 2>/dev/null || true
+    pkill -f "llama-cli" 2>/dev/null || true
+    sleep 2  # Wait for processes to terminate
+}
+
+# Check if llama.cpp directory exists
+if [ ! -d "llama.cpp" ]; then
+    echo "Cloning llama.cpp repository..."
+    git clone https://github.com/ggml-org/llama.cpp llama.cpp
+    echo "Repository cloned successfully."
+else
+    echo "llama.cpp directory already exists."
+fi
+
+cd llama.cpp
+
+# Check if build directory exists and has executables
+if [ ! -f "build/bin/llama-server" ]; then
+    echo "Building llama.cpp..."
+    cmake -B build
+    cmake --build build --config Release
+    echo "Build completed."
+else
+    echo "llama.cpp is already built."
+fi
+
+# Kill any existing llama processes before starting new ones
+kill_existing_processes
+
+# Start the server with optimal settings for M4 Pro
+echo "Starting llama-server with web UI..."
+./build/bin/llama-server --n-gpu-layers 40 -m ../mlabonne_gemma-3-27b-it-abliterated-IQ4_XS.gguf --port 8080 --host 127.0.0.1 &
+SERVER_PID=$!
+
+echo "Server started with PID: $SERVER_PID"
+echo "Waiting for server to initialize..."
+sleep 10
+
+# Open browser to the web UI
+echo "Opening web UI in browser..."
+open http://localhost:8080
+
+echo "Setup complete! Web UI should be accessible at http://localhost:8080"
+echo "Press Ctrl+C to stop the server"
+
+# Wait for the server process
+wait $SERVER_PID
+```
