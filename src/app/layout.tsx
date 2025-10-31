@@ -104,6 +104,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-adsense-account" content="ca-pub-5368889366103187"></meta>
         <script
           dangerouslySetInnerHTML={{
