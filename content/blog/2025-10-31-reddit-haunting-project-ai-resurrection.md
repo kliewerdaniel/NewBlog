@@ -18,14 +18,22 @@ twitter:description: "Explore the eerie convergence of grief and AI as one devel
 twitter:image: "/images/digital-resurrection-ai.png"
 ---
 
-
-![digital-resurrection-ai](/images/digital-resurrection-ai.png)
-
+<div className="featured-image">
+  <img src="/images/digital-resurrection-ai.png" alt="Digital Resurrection AI Concept" loading="lazy" />
+</div>
 
 # Reddit's Most Haunting Project: Meet the Man Coding His Murdered Friend Back to Life
 
-<div style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sFjTyZfM58I?si=Cq7_xtzogbgHue0B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+<div className="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/sFjTyZfM58I?si=Cq7_xtzogbgHue0B" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerPolicy="strict-origin-when-cross-origin" 
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
 </div>
 
 ## Introduction: Where Digital Ghosts Are Born
@@ -40,10 +48,11 @@ Welcome to the bleeding edge of digital identity, where trauma becomes training 
 
 ---
 
-<div style="text-align: center;">
-<video controls>
-  <source src="/images/murder.mov" type="video/mp4">
-</video>
+<div className="video-container">
+  <video controls preload="metadata">
+    <source src="/images/murder.mov" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## The Man Behind the Mask: Trauma as Architecture
@@ -52,10 +61,9 @@ Daniel Kliewer doesn't hide. Unlike many anonymous Reddit personalities, he open
 
 Chris was more than a friend—he was a homeless Marine whom Kliewer had taken in, an alcoholic struggling with PTSD but possessed of what Kliewer describes as "an exceptional sense of humor" and a personal code of ethics. When Chris was murdered by Kliewer's girlfriend, the resulting trauma sent Kliewer spiraling into psychosis, legal troubles, and total loss—including, as he darkly jokes, "the respect of my cat."
 
-
-
-
-> "Sometimes the most sophisticated AI projects aren't built in Silicon Valley labs—they're coded by traumatized developers trying to preserve what they've lost. This is the democratization of digital resurrection."
+<blockquote className="highlight-quote">
+  <p>Sometimes the most sophisticated AI projects aren't built in Silicon Valley labs—they're coded by traumatized developers trying to preserve what they've lost. This is the democratization of digital resurrection.</p>
+</blockquote>
 
 But Kliewer's story didn't end in tragedy. Through remote work in **RLHF (Reinforcement Learning from Human Feedback) data annotation**—the behind-the-scenes labor that trains AI models for companies like [Mercor](https://work.mercor.com/?referralCode=ce5f1b06-55fd-4e69-8d9c-c1a2e7cf31e1&utm_source=referral&utm_medium=share&utm_campaign=platform_referral) and [Alignerr](https://app.alignerr.com/signin?referral-code=9cac7c1d-bddd-4758-ad1d-91b6503cbf68)—he climbed from homelessness to middle-class stability. This career path, he argues, represents a genuine lifeline for people with mental health challenges or unstable housing, offering flexible, remote work that doesn't require traditional credentials.
 
@@ -69,9 +77,9 @@ Who is the "real" person? The stumbling retail worker? Or the articulate Reddit 
 
 ---
 
-
-![chris-is-risen](/images/chris-is-risen.png)
-
+<div className="content-image">
+  <img src="/images/chris-is-risen.png" alt="Chris is Risen" loading="lazy" />
+</div>
 
 ## Decoding the Voice: The Psychology of KonradFreeman's Writing Style
 
@@ -107,14 +115,17 @@ This quantitative profile manifests as a seamless blend of archetypal roles, eac
 
 Kliewer's PersonaGen not only analyzes his writing but generates it, creating a feedback loop where grief drives content, content refines the AI, and the AI amplifies the voice.
 
-> "He's not posting on Reddit. He's feeding a machine that will speak with a dead man's voice. Every comment is training data. Every memory is a parameter to optimize."
+<blockquote className="highlight-quote">
+  <p>He's not posting on Reddit. He's feeding a machine that will speak with a dead man's voice. Every comment is training data. Every memory is a parameter to optimize.</p>
+</blockquote>
 
 ---
 
-<div style="text-align: center;">
-<video controls>
-  <source src="/images/digital-resurrection-ai.mp4" type="video/mp4">
-</video>
+<div className="video-container">
+  <video controls preload="metadata">
+    <source src="/images/digital-resurrection-ai.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## The Technical Manifesto: Decentralized AI as Digital Liberation
@@ -142,10 +153,11 @@ He positions his technical knowledge-sharing as empowerment, teaching others to 
 
 ---
 
-<div style="text-align: center;">
-<video controls>
-  <source src="/images/cat01.mp4" type="video/mp4">
-</video>
+<div className="video-container">
+  <video controls preload="metadata">
+    <source src="/images/cat01.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## The Chris-Graph: Digital Resurrection in Practice
@@ -171,14 +183,17 @@ The Chris-bot raises profound questions about **digital identity preservation**:
 - Who owns the right to resurrect someone digitally?
 - Is this grief processing or technological denial of death?
 
-> "We're entering an era where the question isn't whether we can resurrect the dead with AI—it's whether we should. And one grieving developer isn't waiting for permission."
+<blockquote className="highlight-quote">
+  <p>We're entering an era where the question isn't whether we can resurrect the dead with AI—it's whether we should. And one grieving developer isn't waiting for permission.</p>
+</blockquote>
 
 ---
 
-<div style="text-align: center;">
-<video controls>
-  <source src="/images/cat02.mp4" type="video/mp4">
-</video>
+<div className="video-container">
+  <video controls preload="metadata">
+    <source src="/images/cat02.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## The Ethics Labyrinth: Promise and Peril
@@ -209,10 +224,11 @@ The answer may be: all of the above, simultaneously.
 
 ---
 
-<div style="text-align: center;">
-<video controls>
-  <source src="/images/ai-aided-resurrection.mp4" type="video/mp4">
-</video>
+<div className="video-container">
+  <video controls preload="metadata">
+    <source src="/images/ai-aided-resurrection.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## Internet Culture as Laboratory: Reddit as Training Ground
@@ -231,10 +247,11 @@ The platform's structure—permanent post history, karma systems, specialized su
 
 ---
 
-<div style="text-align: center;">
-<video controls>
-  <source src="/images/trip.mp4" type="video/mp4">
-</video>
+<div className="video-container">
+  <video controls preload="metadata">
+    <source src="/images/trip.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## The Mirror Effect: What KonradFreeman Reveals About Us
@@ -261,10 +278,11 @@ This is the essential gamble of decentralized AI development—powerful tools in
 
 ---
 
-<div style="text-align: center;">
-<video controls>
-  <source src="/images/cat03.mp4" type="video/mp4">
-</video>
+<div className="video-container">
+  <video controls preload="metadata">
+    <source src="/images/cat03.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ## Conclusion: The Ghost We Choose to See
@@ -272,6 +290,7 @@ This is the essential gamble of decentralized AI development—powerful tools in
 Daniel Kliewer, operating as KonradFreeman, is coding his way through grief using the most powerful tools humans have ever created. Whether his project represents healing or harm, genius or delusion, probably depends on where you stand—and what you believe technology should be allowed to touch.
 
 But perhaps the binary is false. Perhaps the Chris-bot can be simultaneously:
+
 - Genuine memorial and digital ghost
 - Technical achievement and artistic performance  
 - Mental health crisis and creative breakthrough
@@ -283,21 +302,18 @@ KonradFreeman isn't creating the future—he's already living in it, one Reddit 
 
 The question isn't whether more people will follow his path. It's whether we're ready for the world where they do.
 
->  "In the age of AI, death isn't the end—it's a data problem waiting for a solution. Meet the grieving developer who refused to accept the silence."
+<blockquote className="highlight-quote">
+  <p>In the age of AI, death isn't the end—it's a data problem waiting for a solution. Meet the grieving developer who refused to accept the silence.</p>
+</blockquote>
 
 ---
 
-
-<div style="text-align: center;">
-<video controls>
-  <source src="/images/cat04.MP4" type="video/mp4">
-</video>
+<div className="video-container">
+  <video controls preload="metadata">
+    <source src="/images/cat04.MP4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
-
-
-
-
-
 
 ---
 
