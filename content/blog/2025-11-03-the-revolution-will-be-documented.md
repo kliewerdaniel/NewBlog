@@ -1068,15 +1068,6 @@ A: Show them successful case studies, emphasize quality benefits, and demonstrat
 
 ---
 
-# Related Articles
-
-- [Complete Guide to Building a Data Annotation Platform Company](https://danielkliewer.com/blog/2024/11/22-planning)
-- [How AI Agents Are Revolutionizing Software Development](https://danielkliewer.com/blog/2024/10/30-creating-ai-agents)
-- [Next.js 14 Document-Driven Development Workflow](https://danielkliewer.com/blog/2025/11/03-document-driven-development-nextjs-blog)
-- [Building Production-Ready AI Applications with Local LLMs](https://danielkliewer.com/blog/2025/10/25-building-your-own-uncensored-ai-overlord)
-
----
-
 # About the Author
 
 Daniel Kliewer is an AI engineer and software developer specializing in democratizing software development through AI collaboration. With a focus on pragmatic methodologies that prioritize clarity and quality over traditional gatekeeping rituals, he's helped build production systems for startups and enterprises. Find more of his work at [danielkliewer.com](https://danielkliewer.com).
