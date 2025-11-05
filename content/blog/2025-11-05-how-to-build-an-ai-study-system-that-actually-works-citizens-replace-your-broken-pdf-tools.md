@@ -337,16 +337,6 @@ The system pulls from multiple chapters, synthesizes the information, and gives 
 
 ---
 
-## Recommended Tool Comparison Table
-
-| **Tool/Approach** | **Pros** | **Cons** | **Best For** |
-|-------------------|----------|----------|--------------|
-| **NotebookLM** | Zero setup, beautiful UI | Black-box retrieval, citation/quality tradeoff | Quick exploratory synthesis |
-| **Claude 200K Context** | High-quality generation | Lost-in-the-middle problems, expensive | Short documents, narrative tasks |
-| **This RAG Architecture** | Full control, local, scalable | Requires setup, debugging | Serious study, technical docs |
-| **ChatGPT + Plugins** | Easy to use, decent retrieval | Rate limits, cloud-only, inconsistent citations | Casual Q&A, small PDFs |
-| **Obsidian + Plugins** | Great for note-taking | Not true RAG, manual effort | Building a personal knowledge base |
-
 ![Tool Comparison Infographic](/images/11052025/ai-study-tools-comparison-infographic.png)
 
 ---
