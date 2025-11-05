@@ -235,25 +235,6 @@ h3 {
   background-clip: text;
 }
 
-/* Centered media for blog posts */
-.centered-media {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem auto;
-  max-width: 100%;
-}
-
-/* Responsive media elements */
-.centered-media iframe,
-.centered-media video,
-.centered-media img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-}
-
 .glass {
   background: rgba(26, 26, 26, 0.8);
   backdrop-filter: blur(10px);
