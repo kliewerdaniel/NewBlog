@@ -1239,11 +1239,6 @@ Now close this tab and start coding. Your future is waiting.
       "url": "/path/to/your/logo.png"
     }
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "1"
-  },
   "video": [
     {
       "@type": "VideoObject",
