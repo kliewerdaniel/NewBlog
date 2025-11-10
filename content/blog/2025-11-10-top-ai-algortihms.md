@@ -30,26 +30,26 @@ Whether you're prototyping on a budget, modernizing legacy systems, or launching
 
 ## Table of Contents
 
-1. [Linear Regression: Predicting Numerical Outcomes](#1-linear-regression-predicting-numerical-outcomes)
-2. [Logistic Regression: Binary Classification](#2-logistic-regression-binary-classification)
-3. [Decision Trees: Hierarchical Decision-Making](#3-decision-trees-hierarchical-decision-making)
-4. [Random Forest: Ensemble Stability](#4-random-forest-ensemble-stability)
-5. [K-Means Clustering: Unsupervised Grouping](#5-k-means-clustering-unsupervised-grouping)
-6. [Naive Bayes: Probabilistic Classification](#6-naive-bayes-probabilistic-classification)
-7. [Support Vector Machines (SVM): Optimal Boundaries](#7-support-vector-machines-svm-optimal-boundaries)
-8. [Neural Networks: Flexible Approximators](#8-neural-networks-flexible-approximators)
-9. [Gradient Boosting: High-Performance Ensembles](#9-gradient-boosting-high-performance-ensembles)
-10. [K-Nearest Neighbors (KNN): Instance-Based Learning](#10-k-nearest-neighbors-knn-instance-based-learning)
-11. [Principal Component Analysis (PCA): Dimensionality Reduction](#11-principal-component-analysis-pca-dimensionality-reduction)
-12. [Recurrent Neural Networks (RNN): Sequence Processing](#12-recurrent-neural-networks-rnn-sequence-processing)
-13. [Genetic Algorithms: Evolutionary Optimization](#13-genetic-algorithms-evolutionary-optimization)
-14. [Long Short-Term Memory (LSTM): Enhanced Sequence Memory](#14-long-short-term-memory-lstm-enhanced-sequence-memory)
-15. [Natural Language Processing (NLP): Language Understanding](#15-natural-language-processing-nlp-language-understanding)
-16. [Ant Colony Optimization: Swarm Intelligence](#16-ant-colony-optimization-swarm-intelligence)
-17. [Word Embeddings: Semantic Representations](#17-word-embeddings-semantic-representations)
-18. [Gaussian Mixture Models (GMM): Probabilistic Clustering](#18-gaussian-mixture-models-gmm-probabilistic-clustering)
-19. [Association Rule Learning: Pattern Discovery](#19-association-rule-learning-pattern-discovery)
-20. [Reinforcement Learning: Trial-and-Error Learning](#20-reinforcement-learning-trial-and-error-learning)
+1. [Linear Regression: Predicting Numerical Outcomes]
+2. [Logistic Regression: Binary Classification]
+3. [Decision Trees: Hierarchical Decision-Making]
+4. [Random Forest: Ensemble Stability]
+5. [K-Means Clustering: Unsupervised Grouping]
+6. [Naive Bayes: Probabilistic Classification]
+7. [Support Vector Machines (SVM): Optimal Boundaries]
+8. [Neural Networks: Flexible Approximators]
+9. [Gradient Boosting: High-Performance Ensembles]
+10. [K-Nearest Neighbors (KNN): Instance-Based Learning]
+11. [Principal Component Analysis (PCA): Dimensionality Reduction]
+12. [Recurrent Neural Networks (RNN): Sequence Processing]
+13. [Genetic Algorithms: Evolutionary Optimization]
+14. [Long Short-Term Memory (LSTM): Enhanced Sequence Memory]
+15. [Natural Language Processing (NLP): Language Understanding]
+16. [Ant Colony Optimization: Swarm Intelligence]
+17. [Word Embeddings: Semantic Representations]
+18. [Gaussian Mixture Models (GMM): Probabilistic Clustering]
+19. [Association Rule Learning: Pattern Discovery]
+20. [Reinforcement Learning: Trial-and-Error Learning]
 
 <br>
 
