@@ -28,30 +28,6 @@ This guide explores the top 20 AI algorithms, providing in-depth explanations of
 
 Whether you're prototyping on a budget, modernizing legacy systems, or launching a side hustle, these algorithms offer proven techniques for extracting insights from data.
 
-## Table of Contents
-
-1. [Linear Regression: Predicting Numerical Outcomes]
-2. [Logistic Regression: Binary Classification]
-3. [Decision Trees: Hierarchical Decision-Making]
-4. [Random Forest: Ensemble Stability]
-5. [K-Means Clustering: Unsupervised Grouping]
-6. [Naive Bayes: Probabilistic Classification]
-7. [Support Vector Machines (SVM): Optimal Boundaries]
-8. [Neural Networks: Flexible Approximators]
-9. [Gradient Boosting: High-Performance Ensembles]
-10. [K-Nearest Neighbors (KNN): Instance-Based Learning]
-11. [Principal Component Analysis (PCA): Dimensionality Reduction]
-12. [Recurrent Neural Networks (RNN): Sequence Processing]
-13. [Genetic Algorithms: Evolutionary Optimization]
-14. [Long Short-Term Memory (LSTM): Enhanced Sequence Memory]
-15. [Natural Language Processing (NLP): Language Understanding]
-16. [Ant Colony Optimization: Swarm Intelligence]
-17. [Word Embeddings: Semantic Representations]
-18. [Gaussian Mixture Models (GMM): Probabilistic Clustering]
-19. [Association Rule Learning: Pattern Discovery]
-20. [Reinforcement Learning: Trial-and-Error Learning]
-
-<br>
 
 ![Infographic of AI and Machine Learning Algorithms](/images/11102025/ai-machine-learning-algorithms-infographic.png)
 
