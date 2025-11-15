@@ -627,6 +627,8 @@ class PersonaReasoningAgent:
 
 ## Part 5: Integrating vero-eval for Rigorous Testing
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6aoKDIrM3_E?si=ZqCuXXV9YgcfqL1a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 This is where the magic happens. **vero-eval** provides production-grade evaluation that goes far beyond simple accuracy metrics. It tests edge cases, persona stress scenarios, and real-world failure modes.
 
 ![vero-eval Testing Framework for AI Research Assistant](/images/11152025/vero-eval-testing-framework.png)
