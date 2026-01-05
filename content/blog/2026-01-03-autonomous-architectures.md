@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Autonomous Architectures: The Convergence of High-Velocity Inference and Self-Improving Agentic Frameworks"
-date: 2026-01-03
+date: 01-04-2026
 author: "Daniel Kliewer"
 description: "A comprehensive exploration of the transition from Generative AI to Agentic AI, featuring Cline, Grok-Fast, and frameworks like SICA, ReMA, Eureka, and Voyager for building self-evolving simulation architects."
 tags: ["AI", "autonomous-agents", "reinforcement-learning", "machine-learning", "agentic-frameworks"]
@@ -20,7 +20,6 @@ twitter:image: "/images/101801.png"
 
 <audio controls>
   <source src="/Building_the_Sovereignty_Stack_Blueprint.m4a" type="audio/mpeg">
-  Your browser does not support the audio element.
 </audio>
 
 # Autonomous Architectures: The Convergence of High-Velocity Inference and Self-Improving Agentic Frameworks
