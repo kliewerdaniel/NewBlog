@@ -101,15 +101,6 @@ Contrary to the trend of "distillation" (making models smaller and dumber to mak
 
 Research indicates that Grok-Fast achieves comparable performance to larger frontier models (scoring 80.0% on LiveCodeBench) while using 40% fewer "thinking tokens".<sup>5</sup> This "intelligence density" means the model reaches correct conclusions faster and with less "fluff," which is economically vital when running continuous self-improvement loops.
 
-**Table 1: Comparative Performance & Economics of Reasoning Models**
-
-| Feature              | Grok-Fast (xAI)     | Grok 4 (Standard) | GPT-4o (OpenAI) | Implication for Agentic Use |
-|----------------------|---------------------|-------------------|-----------------|------------------------------|
-| Throughput           | ~92 tokens/sec      | ~40 tokens/sec    | ~50 tokens/sec  | Enables massive iterative loops (Plan/Act/Verify) without user fatigue. |
-| Context Window       | 2 Million Tokens    | 256k Tokens       | 128k Tokens     | Allows ingestion of entire repositories, massive documentation, or long simulation logs. |
-| Pricing (Input)      | $0.20 / 1M          | High              | Mid-Range       | 98% reduction in cost for equivalent reasoning capability.<sup>5</sup> |
-| Pricing (Output)     | $1.50 / 1M          | High              | Mid-Range       | Encourages verbose reasoning traces and code generation. |
-| Architecture         | MoE (New Arch)      | Dense/MoE         | Dense/MoE       | Optimized for tool use and coding tasks specifically.<sup>6</sup> |
 
 #### 2.2.3 Native Tool Use and Real-Time Integration
 
