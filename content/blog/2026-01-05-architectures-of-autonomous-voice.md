@@ -18,6 +18,7 @@ twitter:description: "A comprehensive guide to building voice-enabled AI systems
 twitter:image: "/images/ai-development-manifesto.png"
 ---
 
+![Voice AI Architecture Overview](/images/open-source-ai-accessibility.png)
 
 # Architectures of Autonomous Voice: Building Ethically-Grounded AI Systems from First Principles
 
@@ -25,7 +26,7 @@ twitter:image: "/images/ai-development-manifesto.png"
 
 The construction of voice-enabled artificial intelligence systems presents not merely a technical challenge but a fundamental question of architectural sovereignty and moral responsibility. This document examines the systematic development of voice AI infrastructure using open-source components, grounded in a foundational chatbot implementation that privileges local computation, user autonomy, and transparent operation. Through rigorous analysis of the ollama-chatbot framework and its extension toward voice modalities, we establish a methodology for building production-ready conversational systems that resist the centralization of computational power while maintaining operational integrity.
 
-![Voice AI Architecture Overview](/images/open-source-ai-accessibility.png)
+
 
 ## I. Theoretical Foundations: The Moral Imperative of Decentralized Intelligence
 
