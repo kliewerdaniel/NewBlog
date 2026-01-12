@@ -231,14 +231,14 @@ I built these tools because I had to. When you have nothing, you build everythin
 
 
 <div className="video-embed">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/eY21wTD7gfM" title="Autonomous Architectures - Distributed Agent Systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/eY21wTD7gfM" title="Autonomous Architectures - Distributed Agent Systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <br>
 
 
 <div className="video-embed">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gCjKNB0-zRQ" title="Autonomous Architectures - Distributed Agent Systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/gCjKNB0-zRQ" title="Autonomous Architectures - Distributed Agent Systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 *Built with: Python, Ollama, Neo4j, FastAPI, Next.js, and unbreakable will.*
