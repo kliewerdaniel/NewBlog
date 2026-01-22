@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SpecGen: Deterministic AI-Powered Code Generation from Natural Language"
-date: 2026-01-07 12:00:00 -0600
+date: 01-07-2026
 author: "Daniel Kliewer"
 description: "Discover SpecGen, a revolutionary CLI tool that transforms natural language specifications into production-ready application skeletons using deterministic agentic workflows and retrieval-augmented generation."
 tags: ["AI", "Code Generation", "Python", "CLI Tools", "FastAPI", "Django", "Agentic AI", "RAG", "Software Development"]
