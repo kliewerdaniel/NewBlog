@@ -129,3 +129,6 @@ The results might surprise you, just as they surprised me when I heard someone s
 *The encoding chart shown here is from my original 2016 development work. The system is documented in a technical paper I wrote analyzing it as a formal encoding layer rather than a curiosity. If you're interested in the full information-theoretic treatment, I'm happy to share it below.*
 
 [Information-Theoretic Analysis of Audible Binary Transmission via Rhythmic Vocalization.pdf](/images/Information-Theoretic_Analysis_of_Audible_Binary_Transmission_via_Rhythmic_Vocalization.pdf)
+
+
+[Link to NotebookLM Explainer](https://notebooklm.google.com/notebook/9c304b94-95af-4a74-957a-7c69ae082a81?artifactId=aec673c2-2fb1-42d3-a1e2-812fdaf97ea7)
